@@ -5,7 +5,7 @@ services:
     ports:
       - 8000
     volumes:
-      - "../docs:/docs"
+      - "../:/docs"
     labels:
       com.ddev.site-name: ${DDEV_SITENAME}
       com.ddev.approot: $DDEV_APPROOT
