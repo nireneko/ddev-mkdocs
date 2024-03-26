@@ -1,7 +1,7 @@
 name: mkdocs
 
 pre_install_actions:
-  - mkdir -p ${DDEV_APPROOT}/mkdocs/docs
+  - mkdir -p ${DDEV_APPROOT}/docs
   - touch ${DDEV_APPROOT}/mkdocs.yml
   - touch ${DDEV_APPROOT}/docs/index.md
 
