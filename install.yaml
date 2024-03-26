@@ -2,13 +2,13 @@ name: mkdocs
 
 pre_install_actions:
   - mkdir -p ${DDEV_APPROOT}/mkdocs/docs
-  - touch ${DDEV_APPROOT}/mkdocs/mkdocs.yml
-  - touch ${DDEV_APPROOT}/mkdocs/docs/index.md
+  - touch ${DDEV_APPROOT}/mkdocs.yml
+  - touch ${DDEV_APPROOT}/docs/index.md
 
 post_install_actions:
   - |
     #ddev-nodisplay
-    cat > ${DDEV_APPROOT}/mkdocs/mkdocs.yml <<EOF
+    cat > ${DDEV_APPROOT}/mkdocs.yml <<EOF
     site_name: MKdocs DDEV
     theme:
       name: material
