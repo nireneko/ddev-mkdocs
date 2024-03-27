@@ -15,10 +15,12 @@ This MKdocs recipe for [DDEV](https://ddev.readthedocs.io) installs a [`.ddev/do
 
 ## Documentation
 
-This package creates one folder named `mkdocs` in the root of your project and inside mkdocs.yml file, you can add the configuration that you need for your project.
-
-Inside the folder `mkdocs` another one named `docs` also will be created, there you can put your documentation, one example file `index.md` is available.
+This package creates one folder named `docs` in the root of your project and an mkdocs.yml file also in the root where you can add the configuration that you need for your project.
 
 Check the official documentation of [MKdocs](https://www.mkdocs.org/) and the documentation of [MKdocs Material](https://squidfunk.github.io/mkdocs-material/) for more information about the configuration and page creation.
+
+## Publishing
+
+Contributed projects on Drupal.org can [automatically publish their projects via Gitlab CI](https://project.pages.drupalcode.org/gitlab_templates/jobs/pages/).
 
 **Contributed and maintained by [@nireneko](https://github.com/nireneko) based on the original [ddev-contrib template](https://github.com/ddev/ddev-addon-template).**
